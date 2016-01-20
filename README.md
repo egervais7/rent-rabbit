@@ -6,7 +6,7 @@ RR allows signed up users to post items for rent as well as search available ite
 
 <b>Installation</b>
 Once the app is downloaded:
-bundle install 
+bundle install
 rake db:create
 rake db:migrate
 
@@ -26,18 +26,18 @@ Tasks were broken up at first based on what we each wanted to tackle.  Once a fo
 
 <b>Link</b>
 
-https://rent-rabbit.herokuapp.com/
+<a href="https://rent-rabbit.herokuapp.com/">https://rent-rabbit.herokuapp.com/</a>"
 
 <b>The site was created using the following technology:</b>
 
 Front End:
-HTML5, CSS3, Bootstrap, Javascript, JQuery 
+HTML5, CSS3, Bootstrap, Javascript, JQuery
 
 Server:
 Ruby, Rails
 
 Database:
-PostgreSQL 
+PostgreSQL
 
 <b>API's Used:</b>
 Cloudinary for uploading profile and item images.
@@ -45,7 +45,7 @@ Cloudinary for uploading profile and item images.
 Facebook for OAuth and Facebook login.
 
 <b>Hurdles</b>
-Heroku deployment as well as browser compatability affected negatively rendering of home page effects and appearance. 
+Heroku deployment as well as browser compatability affected negatively rendering of home page effects and appearance.
 
 Heroku also would not allow password reset functionality among other things.
 
